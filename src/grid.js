@@ -26,7 +26,7 @@ export default class InfiniteGrid extends React.Component {
 			maxItemIndex: 100,
 			itemDimensions: {
 				height: this._itemHeight(),
-				width: this._itemHeight(),
+				width: this._itemWidth(),
 				gridWidth: 0,
 				itemsPerRow: 2,
 			},
